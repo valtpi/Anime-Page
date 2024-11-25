@@ -3,48 +3,63 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./styles.css">
+      <link rel="stylesheet" href="./reset.css">
       <title>Mi Primer Sitio Web</title>
    </head>
    <header>
-    <div>
-         <a href="./index.html">inicio</a>
-         <a href="./sobre.html">sobre</a>  
-         <a href="./servicios.html">servicios</a>
+    <div class="menu">
+         <a href="./index.html" class="link-menu">inicio</a>
+         <a href="./sobre.html" class="link-menu">sobre</a>  
+         <a href="./servicios.html" class="link-menu">servicios</a>
     </div>
    </header>
-    <div>
-        <img src="./bandera.jpg" alt="bandera">
-    </div>
    <body>
+    <div >
+        <a href="./index.html"><img src="./bandera.jpg" alt="bandera" class="imagen-ppal" ></a>
+    </div>
         <main>
             <section>
+                <div id="container">
+                    <div class="card">
                 <article>
-                    <h1>
+                    <h1 class="title">
                         Mi Primera Pagina
                     </h1>
                     <p>Anime de luffy</p>
+                    <img src="./coleccion.jpg" alt="coleccion" class="imagen-items">
                 </article>
+                     </div>
+                     <div class="card">
                 <article>
+                    <h2 class="title">Productos</h2>
                     <p>Adquiere los mejores porductos anime</p>
+                    <img src="./sombrero.jpg" alt="sombrero" class="imagen-items">
                 </article>
+                </div>
+                <div class="card">
                 <article>
-                    <h2>
-                        Figuritas anime
-                    </h2>
+                    <h3 class="title">
+                        Figuritas anime  
+                    </h3>
                     <p>
-                        Todas las figuritas coleccionables 
+                        Todas las figuritas coleccionables   
                     </p>
+                    <img src="./figura.jpg" alt="figura" class="imagen-items">
                 </article>
+                </div>
+            </div>
             </section>
         </main>
       
        <footer>
-        <div>
-            <p>Este es el footer de la pagina</p>
-            <a href="https://facebook.com" target="_blank">facebook</a>
-            <a href="https://instagram.com" target="_blank">instagram</a>
-            <a href="https://youtube.com" target="_blank">youtube</a>
-        </div>
+        <div class="footer">
+            <h4 class="title" id="titulo">Pagina anime todo los derechos reservados @</h4>
+            <div class="items-ft">   
+            <a href="https://facebook.com" target="_blank" class="item-footer">Facebook</a>
+            <a href="https://instagram.com" target="_blank" class="item-footer">Instagram</a>
+            <a href="https://youtube.com" target="_blank" class="item-footer">Youtube</a>
+            </div>
        </footer>
    </body>
 </html>

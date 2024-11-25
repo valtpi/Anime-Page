@@ -1,0 +1,71 @@
+/* Reset CSS básico */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Eliminar estilos de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Eliminar listas predeterminadas */
+ul, ol {
+  list-style: none;
+}
+
+/* Eliminar bordes y márgenes en formularios */
+input,
+textarea,
+select,
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* Eliminar márgenes y bordes de tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Normalizar algunos elementos de formulario */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Ajustes en el campo de texto */
+textarea {
+  resize: vertical;
+}
+
+/* Hacer que el HTML y el body ocupen toda la altura */
+html, body {
+  height: 100%;
+}
